@@ -598,6 +598,11 @@
     flex-direction: row;
     gap: 40px;
     margin-top: 20px;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
 
 }
 
@@ -1507,6 +1512,7 @@
         overflow-x: auto;
         scrollbar-width: none;
         margin-top: 15px;
+        
     }
 
     .smiles-cards::-webkit-scrollbar {
